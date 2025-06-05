@@ -1,26 +1,28 @@
-from datetime import datetime, timedelta
+# Path: utils/filters.py
+
+import re
 from config import EXPERIENCE
-from utils.job_matcher import calculate_match_score, extract_salary, extract_experience
+
+# Enhanced relevance checker with experience threshold filtering
+
+def is_relevant_job(job, resume_keywords):
+    title = job.get("title", "").lower()
+    description = job.get("description", "").lower()
+    experience_text = job.get("experience", "") or description
+
+    # Match at least one resume keyword in title/description
+    if not any(re.search(rf"\b{re.escape(k.lower())}\b", title + description) for k in resume_keywords):
+        return False
+
+    # Extract numeric experience mentions from text (e.g., "3 years", "5+ years")
+    experience_matches = re.findall(r"(\d+)[+\s]*years?", experience_text, re.IGNORECASE)
+    if experience_matches:
+        max_required = max(int(year) for year in experience_matches)
+        if max_required > EXPERIENCE:
+            return False
+
+    return True
 
 def filter_recent_jobs(jobs, days=1):
     cutoff = datetime.now() - timedelta(days=days)
     return [j for j in jobs if j.get("posted_date") and j["posted_date"] >= cutoff]
-
-def filter_and_score_jobs(jobs, resume_skills):
-    seen = set()
-    filtered = []
-
-    for job in jobs:
-        key = (job["title"], job["company"], job["url"])
-        if key in seen:
-            continue
-        seen.add(key)
-
-        job["match_score"] = calculate_match_score(job.get("description", ""), resume_skills)
-        job["experience_required"] = extract_experience(job.get("description", ""))
-
-        # if job["experience_required"] >= EXPERIENCE:
-        filtered.append(job)
-
-    filtered.sort(key=lambda j: (-j["match_score"], -j.get("experience_required", 0)))
-    return filtered

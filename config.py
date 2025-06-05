@@ -14,7 +14,7 @@ MAX_WORKERS = 25
 
 EXPERIENCE = 3
 SALARY_THRESHOLD = 10  # Change manually as needed
-CHROME_DRIVER_PATH = "chromedriver.exe"
+CHROME_DRIVER_PATH = "chromedriver"
 
 POSTED_TODAY_COLLECTION = "PostedToday"
 FILTERED_JOBS_COLLECTION = "FilteredJobs"
