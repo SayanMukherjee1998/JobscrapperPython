@@ -33,10 +33,23 @@ def get_chrome_driver():
 def scrape_company_page_dynamic(company, resume_keywords):
     jobs = []
     driver = get_chrome_driver()
+    MAX_RETRIES = 3
     try:
         logger.info(f"🔄 Scraping company: {company['name']}")
-        driver.get(company["career_url"])
+        # Retry logic for loading the company career page
+        for attempt in range(MAX_RETRIES):
+            try:
+                driver.get(company["career_url"])
+                break  # Success!
+            except WebDriverException as e:
+                logger.warning(f"Selenium get failed: {e}, attempt {attempt + 1} of {MAX_RETRIES}")
+                if attempt == MAX_RETRIES - 1:
+                    raise  # Final failure after all retries
+                time.sleep(2 ** attempt)  # Exponential backoff: 1s, 2s, 4s
+
         cards = driver.find_elements(By.XPATH, '//a[contains(@href,"job") or contains(@href,"careers")]')
+        print(f"Found {len(cards)} company job cards for {company['name']}")
+
         for card in cards[:MAX_COMPANY_JOBS]:
             try:
                 title = card.text.strip() or "Unknown Title"
@@ -49,8 +62,8 @@ def scrape_company_page_dynamic(company, resume_keywords):
                     "posted_date": datetime.now(),
                     "description": title
                 }
-                if is_relevant_job(job, resume_keywords):
-                    jobs.append(job)
+                # if is_relevant_job(job, resume_keywords):
+                jobs.append(job)
             except Exception as e:
                 logger.warning(f"⚠️ Parse failed on {company['name']}: {e}")
         logger.info(f"✅ {company['name']}: {len(jobs)} relevant out of {len(cards)} total")
@@ -59,7 +72,6 @@ def scrape_company_page_dynamic(company, resume_keywords):
     finally:
         driver.quit()
     return jobs
-
 
 def scrape_all_companies(resume_keywords):
     companies = pd.read_csv(COMPANY_LIST_PATH)
@@ -70,4 +82,5 @@ def scrape_all_companies(resume_keywords):
     results = []
     for comp in companies:
         results.extend(scrape_company_page_dynamic(comp, resume_keywords))
+    print(f"🔍 Printing jobs nside company scrapper: {results}")
     return results

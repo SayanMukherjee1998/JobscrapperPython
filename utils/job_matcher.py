@@ -2,11 +2,13 @@ import re
 
 def calculate_match_score(description, resume_skills):
     score = 0
+    matched_skills = 0
     desc_lower = (description or "").lower()
     for skill, weight in resume_skills.items():
         if re.search(r'\b' + re.escape(skill.lower()) + r'\b', desc_lower):
-            score += weight
-    return score
+            matched_skills += 1
+    return matched_skills
+
 
 def extract_salary(description):
     patterns = [

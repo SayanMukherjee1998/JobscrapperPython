@@ -66,12 +66,13 @@ def scrape_linkedin_title_location(title, location, resume_keywords):
             url = f"https://www.linkedin.com/jobs/search/?keywords={title}&location={location}&start={start}"
             logger.info(f"🔄 Scraping LinkedIn: {title} | {location} | Page {page+1}")
             driver.get(url)
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ul.jobs-search__results-list")))
+            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ul.jobs-search__results-list")))
             cards = driver.find_elements(By.CSS_SELECTOR, "ul.jobs-search__results-list li")
+            print(f"Found {len(cards)} LinkedIn job cards")
             for card in cards:
                 job = extract_job_details(card)
-                if job and is_relevant_job(job, resume_keywords):
-                    jobs.append(job)
+                # if job and is_relevant_job(job, resume_keywords):
+                jobs.append(job)
             logger.info(f"✅ Page {page+1} complete: {len(cards)} total | {len(jobs)} relevant")
     except TimeoutException:
         logger.warning(f"⚠️ Timeout for {title} @ {location}")
