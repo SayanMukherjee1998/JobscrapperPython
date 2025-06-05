@@ -1,0 +1,13 @@
+# Ignore all Python cache files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore all .pyc files in any subdirectory
+**/*.pyc
+
+# Ignore log files
+*.log
+
+# (Optional) Ignore logs folder if you want to ignore all logs inside it
+logs/
