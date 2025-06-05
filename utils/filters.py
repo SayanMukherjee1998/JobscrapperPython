@@ -7,22 +7,29 @@ from datetime import datetime, timedelta
 # Enhanced relevance checker with experience threshold filtering
 
 def is_relevant_job(job, resume_keywords):
-    title = job.get("title", "").lower()
-    description = job.get("description", "").lower()
-    experience_text = job.get("experience", "") or description
+    if isinstance(resume_keywords, dict):
+        skills = list(resume_keywords.keys())
+    else:
+        skills = list(resume_keywords)
 
-    # Match at least one resume keyword in title/description
-    if not any(re.search(rf"\b{re.escape(k.lower())}\b", title + description) for k in resume_keywords):
-        return False
+    skills = [s.strip().lower() for s in skills if s and isinstance(s, str)]
 
-    # Extract numeric experience mentions from text (e.g., "3 years", "5+ years")
-    experience_matches = re.findall(r"(\d+)[+\s]*years?", experience_text, re.IGNORECASE)
-    if experience_matches:
-        max_required = max(int(year) for year in experience_matches)
-        if max_required > EXPERIENCE:
-            return False
+    title = (job.get("title") or "").lower().strip()
+    description = (job.get("description") or "").lower().strip()
 
-    return True
+    matched = []
+    for skill in skills:
+        if skill in title or skill in description:
+            matched.append(skill)
+
+    if not skills:
+        return False  
+
+    match_ratio = len(matched) / len(skills)
+    print(f"[DEBUG] Job: '{title[:30]}...' matched {len(matched)}/{len(skills)} ({match_ratio:.0%}) skills: {matched}")
+
+    return match_ratio >= 0.7
+
 
 def filter_recent_jobs(jobs, days=1):
     cutoff = datetime.now() - timedelta(days=days)
