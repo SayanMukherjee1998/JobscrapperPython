@@ -1,0 +1,21 @@
+2025-06-05 15:01:30,733 - INFO - \U0001f4c4 Extracting skills from resume
+2025-06-05 15:01:30,737 - INFO - \u2705 Skills extracted: {'Aws': 3, 'Docker': 1, 'React': 2, 'Angular': 2, 'Node.js': 3, 'Mysql': 1, 'Mongodb': 2, 'Git': 1, 'Jenkins': 2, 'Linux': 1, 'Graphql': 2, 'Typescript': 1, 'Sql': 1, 'Ci/cd': 2, 'Javascript': 2}
+2025-06-05 15:01:30,738 - INFO - \U0001f50d Scraping jobs from LinkedIn and Companies
+2025-06-05 15:01:30,753 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,754 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,754 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,754 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,754 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,755 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,755 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,755 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-05 15:01:30,755 - ERROR - LinkedIn future failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+

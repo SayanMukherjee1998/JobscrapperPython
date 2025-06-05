@@ -1,0 +1,241 @@
+2025-06-05 16:55:09,580 - INFO - \U0001f4c4 Extracting skills from resume
+2025-06-05 16:55:09,584 - INFO - \u2705 Skills extracted: {'Aws': 3, 'Docker': 1, 'React': 2, 'Angular': 2, 'Node.js': 3, 'Mysql': 1, 'Mongodb': 2, 'Git': 1, 'Jenkins': 2, 'Linux': 1, 'Graphql': 2, 'Typescript': 1, 'Sql': 1, 'Ci/cd': 2, 'Javascript': 2}
+2025-06-05 16:55:09,585 - INFO - \U0001f50d Starting LinkedIn scraping...
+2025-06-05 16:55:12,697 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 1
+2025-06-05 16:55:12,706 - INFO - \U0001f504 Scraping LinkedIn: SDE - Remote - Page 1
+2025-06-05 16:55:12,735 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 1
+2025-06-05 16:55:12,794 - INFO - \U0001f504 Scraping LinkedIn: SDE - Hyderabad - Page 1
+2025-06-05 16:55:12,861 - INFO - \U0001f504 Scraping LinkedIn: Backend Engineer - Remote - Page 1
+2025-06-05 16:55:12,882 - INFO - \U0001f504 Scraping LinkedIn: Backend Engineer - Hyderabad - Page 1
+2025-06-05 16:55:12,931 - INFO - \U0001f504 Scraping LinkedIn: SDE - Pune - Page 1
+2025-06-05 16:55:13,094 - INFO - \U0001f504 Scraping LinkedIn: MERN - Remote - Page 1
+2025-06-05 16:55:20,933 - INFO - \u2705 Found 7 jobs on page 1 for SDE - Pune
+2025-06-05 16:55:24,814 - INFO - \u2705 Found 7 jobs on page 1 for Backend Engineer - Remote
+2025-06-05 16:55:24,882 - INFO - \u2705 Found 7 jobs on page 1 for SDE - Hyderabad
+2025-06-05 16:55:28,192 - INFO - \u2705 Found 51 jobs on page 1 for MERN - Pune
+2025-06-05 16:55:28,902 - INFO - \U0001f504 Scraping LinkedIn: Backend Engineer - Pune - Page 1
+2025-06-05 16:55:30,111 - INFO - \u2705 Found 60 jobs on page 1 for Backend Engineer - Hyderabad
+2025-06-05 16:55:31,305 - INFO - \u2705 Found 7 jobs on page 1 for SDE - Remote
+2025-06-05 16:55:32,225 - INFO - \u2705 Found 7 jobs on page 1 for MERN - Hyderabad
+2025-06-05 16:56:00,952 - INFO - \u2705 Found 7 jobs on page 1 for MERN - Remote
+2025-06-05 16:56:03,614 - INFO - \u2705 Found 7 jobs on page 1 for Backend Engineer - Pune
+2025-06-05 16:56:09,980 - INFO - \U0001f3e2 Starting Company scraping...
+2025-06-05 16:56:11,143 - INFO - \U0001f504 Scraping company: PhonePe
+2025-06-05 16:56:17,620 - INFO - \u2705 Found 3 jobs at PhonePe
+2025-06-05 16:56:24,961 - INFO - \U0001f504 Scraping company: Amazon
+2025-06-05 16:56:35,653 - INFO - \u2705 Found 3 jobs at Amazon
+2025-06-05 16:56:43,031 - INFO - \U0001f504 Scraping company: Microsoft
+2025-06-05 16:56:49,887 - INFO - \u2705 Found 0 jobs at Microsoft
+2025-06-05 16:56:57,250 - INFO - \U0001f504 Scraping company: Flipkart
+2025-06-05 16:56:58,291 - INFO - \u2705 Found 0 jobs at Flipkart
+2025-06-05 16:57:05,682 - INFO - \U0001f504 Scraping company: Swiggy
+2025-06-05 16:57:16,368 - INFO - \u2705 Found 3 jobs at Swiggy
+2025-06-05 16:57:23,681 - INFO - \U0001f504 Scraping company: Razorpay
+2025-06-05 16:57:26,091 - INFO - \u2705 Found 3 jobs at Razorpay
+2025-06-05 16:57:33,446 - INFO - \U0001f504 Scraping company: Zomato
+2025-06-05 16:57:34,417 - INFO - \u2705 Found 0 jobs at Zomato
+2025-06-05 16:57:41,734 - INFO - \U0001f504 Scraping company: Ola
+2025-06-05 16:57:42,729 - INFO - \u2705 Found 0 jobs at Ola
+2025-06-05 16:57:50,082 - INFO - \U0001f504 Scraping company: BrowserStack
+2025-06-05 16:57:54,519 - INFO - \u2705 Found 3 jobs at BrowserStack
+2025-06-05 16:58:01,884 - INFO - \U0001f504 Scraping company: CRED
+2025-06-05 16:58:03,377 - INFO - \u2705 Found 0 jobs at CRED
+2025-06-05 16:58:10,744 - INFO - \U0001f504 Scraping company: OlaCabs
+2025-06-05 16:58:11,578 - INFO - \u2705 Found 0 jobs at OlaCabs
+2025-06-05 16:58:18,908 - INFO - \U0001f504 Scraping company: TCS
+2025-06-05 16:58:36,086 - INFO - \u2705 Found 3 jobs at TCS
+2025-06-05 16:58:43,834 - INFO - \U0001f504 Scraping company: Wipro
+2025-06-05 16:58:56,250 - INFO - \u2705 Found 3 jobs at Wipro
+2025-06-05 16:59:03,642 - INFO - \U0001f504 Scraping company: Infosys
+2025-06-05 16:59:19,525 - INFO - \u2705 Found 3 jobs at Infosys
+2025-06-05 16:59:26,881 - INFO - \U0001f504 Scraping company: HCLTech
+2025-06-05 16:59:27,734 - INFO - \u2705 Found 0 jobs at HCLTech
+2025-06-05 16:59:35,102 - INFO - \U0001f504 Scraping company: Meesho
+2025-06-05 16:59:35,755 - INFO - \u2705 Found 0 jobs at Meesho
+2025-06-05 16:59:43,042 - INFO - \U0001f504 Scraping company: BYJU'S
+2025-06-05 16:59:44,846 - INFO - \u2705 Found 0 jobs at BYJU'S
+2025-06-05 16:59:52,208 - INFO - \U0001f504 Scraping company: Paytm
+2025-06-05 16:59:53,016 - ERROR - \u274c Company scrape failed for Paytm: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bb6874]
+	(No symbol) [0x0x7ff712ba7589]
+	(No symbol) [0x0x7ff712ba9331]
+	(No symbol) [0x0x7ff712ba78a6]
+	(No symbol) [0x0x7ff712ba7306]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba4b9f]
+	(No symbol) [0x0x7ff712ba541c]
+	(No symbol) [0x0x7ff712bbde0a]
+	(No symbol) [0x0x7ff712c61dfe]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 17:00:00,485 - INFO - \U0001f504 Scraping company: Freshworks
+2025-06-05 17:00:01,041 - INFO - \u2705 Found 0 jobs at Freshworks
+2025-06-05 17:00:08,426 - INFO - \U0001f504 Scraping company: Udaan
+2025-06-05 17:00:09,412 - INFO - \u2705 Found 0 jobs at Udaan
+2025-06-05 17:00:16,728 - INFO - \U0001f504 Scraping company: Cognizant
+2025-06-05 17:00:17,892 - INFO - \u2705 Found 0 jobs at Cognizant
+2025-06-05 17:00:25,170 - INFO - \U0001f504 Scraping company: IBM
+2025-06-05 17:00:38,225 - INFO - \u2705 Found 3 jobs at IBM
+2025-06-05 17:00:45,596 - INFO - \U0001f504 Scraping company: Capgemini
+2025-06-05 17:00:57,781 - INFO - \u2705 Found 3 jobs at Capgemini
+2025-06-05 17:01:05,071 - INFO - \U0001f504 Scraping company: Accenture
+2025-06-05 17:01:08,617 - INFO - \u2705 Found 3 jobs at Accenture
+2025-06-05 17:01:15,940 - INFO - \U0001f504 Scraping company: Salesforce
+2025-06-05 17:01:26,870 - INFO - \u2705 Found 3 jobs at Salesforce
+2025-06-05 17:01:34,226 - INFO - \U0001f504 Scraping company: Adobe
+2025-06-05 17:01:34,892 - INFO - \u2705 Found 0 jobs at Adobe
+2025-06-05 17:01:42,200 - INFO - \U0001f504 Scraping company: Oracle
+2025-06-05 17:01:46,045 - INFO - \u2705 Found 3 jobs at Oracle
+2025-06-05 17:01:53,433 - INFO - \U0001f504 Scraping company: Intuit
+2025-06-05 17:02:23,805 - INFO - \u2705 Found 3 jobs at Intuit
+2025-06-05 17:02:31,183 - INFO - \U0001f504 Scraping company: SAP
+2025-06-05 17:02:39,232 - INFO - \u2705 Found 3 jobs at SAP
+2025-06-05 17:02:46,517 - INFO - \U0001f504 Scraping company: Atlassian
+2025-06-05 17:02:53,069 - INFO - \u2705 Found 3 jobs at Atlassian
+2025-06-05 17:03:00,456 - INFO - \U0001f504 Scraping company: Uber
+2025-06-05 17:03:04,259 - WARNING - \u26a0\ufe0f Card parse error on Uber: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bc184d]
+	(No symbol) [0x0x7ff712bc489c]
+	(No symbol) [0x0x7ff712bc496f]
+	(No symbol) [0x0x7ff712c0a016]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c02d16]
+	(No symbol) [0x0x7ff712c38b80]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 17:03:04,454 - INFO - \u2705 Found 2 jobs at Uber
+2025-06-05 17:03:12,769 - INFO - \U0001f504 Scraping company: Dell
+2025-06-05 17:03:30,821 - INFO - \u2705 Found 3 jobs at Dell
+2025-06-05 17:03:38,249 - INFO - \U0001f504 Scraping company: Cisco
+2025-06-05 17:03:41,484 - INFO - \u2705 Found 0 jobs at Cisco
+2025-06-05 17:03:48,945 - INFO - \U0001f504 Scraping company: PayPal
+2025-06-05 17:03:51,143 - INFO - \u2705 Found 0 jobs at PayPal
+2025-06-05 17:03:58,667 - INFO - \U0001f504 Scraping company: Walmart
+2025-06-05 17:04:26,869 - INFO - \u2705 Found 3 jobs at Walmart
+2025-06-05 17:04:34,321 - INFO - \U0001f504 Scraping company: Qualcomm
+2025-06-05 17:04:47,696 - INFO - \u2705 Found 0 jobs at Qualcomm
+2025-06-05 17:04:55,148 - INFO - \U0001f504 Scraping company: LinkedIn
+2025-06-05 17:05:33,562 - INFO - \u2705 Found 1 jobs at LinkedIn
+2025-06-05 17:05:41,067 - INFO - \U0001f504 Scraping company: BigBasket
+2025-06-05 17:05:48,817 - INFO - \u2705 Found 2 jobs at BigBasket
+2025-06-05 17:05:56,248 - INFO - \U0001f504 Scraping company: Upstox
+2025-06-05 17:06:05,313 - INFO - \u2705 Found 3 jobs at Upstox
+2025-06-05 17:06:12,660 - INFO - \U0001f504 Scraping company: Cognizant
+2025-06-05 17:06:14,289 - INFO - \u2705 Found 0 jobs at Cognizant
+2025-06-05 17:06:21,681 - INFO - \U0001f504 Scraping company: Nykaa
+2025-06-05 17:06:22,694 - ERROR - \u274c Company scrape failed for Nykaa: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bb6874]
+	(No symbol) [0x0x7ff712ba7589]
+	(No symbol) [0x0x7ff712ba9331]
+	(No symbol) [0x0x7ff712ba78a6]
+	(No symbol) [0x0x7ff712ba7306]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba4b9f]
+	(No symbol) [0x0x7ff712ba541c]
+	(No symbol) [0x0x7ff712bbde0a]
+	(No symbol) [0x0x7ff712c61dfe]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 17:06:30,004 - INFO - \U0001f504 Scraping company: Unacademy
+2025-06-05 17:06:41,311 - INFO - \u2705 Found 3 jobs at Unacademy
+2025-06-05 17:06:48,696 - INFO - \U0001f504 Scraping company: Dream11
+2025-06-05 17:06:53,329 - ERROR - \u274c Company scrape failed for Dream11: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bb6874]
+	(No symbol) [0x0x7ff712ba7589]
+	(No symbol) [0x0x7ff712ba9331]
+	(No symbol) [0x0x7ff712ba78a6]
+	(No symbol) [0x0x7ff712ba7306]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba4b9f]
+	(No symbol) [0x0x7ff712ba541c]
+	(No symbol) [0x0x7ff712bbde0a]
+	(No symbol) [0x0x7ff712c61dfe]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 17:07:00,809 - INFO - \U0001f504 Scraping company: ShareChat
+2025-06-05 17:07:02,749 - INFO - \u2705 Found 2 jobs at ShareChat
+2025-06-05 17:07:10,291 - INFO - \U0001f504 Scraping company: Lenskart
+2025-06-05 17:07:20,496 - INFO - \u2705 Found 0 jobs at Lenskart
+2025-06-05 17:07:27,795 - INFO - \U0001f504 Scraping company: Delhivery
+2025-06-05 17:07:32,919 - INFO - \u2705 Found 0 jobs at Delhivery
+2025-06-05 17:07:39,141 - INFO - \U0001f50e Total jobs scraped: 227
+2025-06-05 17:07:39,142 - INFO - \U0001f9e0 Filtering and scoring all jobs...
+2025-06-05 17:07:39,380 - INFO - \U0001f4be Inserted 221 jobs to FilteredJobs
+2025-06-05 17:07:39,380 - INFO - \U0001f552 Identifying today's jobs...
+2025-06-05 17:07:39,414 - INFO - \u2705 Jobs posted today: 68
+2025-06-05 17:07:39,415 - INFO - \U0001f3c1 Script completed in 749.84 seconds

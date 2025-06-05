@@ -1,0 +1,251 @@
+2025-06-05 17:19:52,613 - INFO - \U0001f4c4 Extracting skills from resume
+2025-06-05 17:19:52,619 - INFO - \u2705 Skills extracted: {'Aws': 3, 'Docker': 1, 'React': 2, 'Angular': 2, 'Node.js': 3, 'Mysql': 1, 'Mongodb': 2, 'Git': 1, 'Jenkins': 2, 'Linux': 1, 'Graphql': 2, 'Typescript': 1, 'Sql': 1, 'Ci/cd': 2, 'Javascript': 2}
+2025-06-05 17:19:52,620 - INFO - \U0001f50d Starting LinkedIn scraping...
+2025-06-05 17:19:55,737 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 1
+2025-06-05 17:19:55,752 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Hyderabad - Page 1
+2025-06-05 17:19:55,803 - INFO - \U0001f504 Scraping LinkedIn: MERN - Remote - Page 1
+2025-06-05 17:19:55,936 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - WFH - Page 1
+2025-06-05 17:19:55,964 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 1
+2025-06-05 17:19:56,054 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 1
+2025-06-05 17:19:56,059 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Pune - Page 1
+2025-06-05 17:19:56,168 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 1
+2025-06-05 17:21:37,923 - INFO - \u2705 Found 3 jobs on page 1 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:21:37,924 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 2
+2025-06-05 17:21:42,219 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Full Stack Developer – SDE2, location=WFH
+2025-06-05 17:21:42,873 - INFO - \u2705 Found 7 jobs on page 1 for MERN - Hyderabad
+2025-06-05 17:21:42,874 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 2
+2025-06-05 17:21:49,878 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Remote - Page 1
+2025-06-05 17:21:52,174 - INFO - \u2705 Found 3 jobs on page 2 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:21:52,175 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 3
+2025-06-05 17:21:52,897 - INFO - \u2705 Found 7 jobs on page 1 for MERN - Pune
+2025-06-05 17:21:52,898 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 2
+2025-06-05 17:22:12,885 - INFO - \u2705 Found 7 jobs on page 2 for MERN - Pune
+2025-06-05 17:22:12,885 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 3
+2025-06-05 17:22:17,238 - INFO - \u2705 Found 8 jobs on page 1 for MERN - WFH
+2025-06-05 17:22:17,238 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 2
+2025-06-05 17:22:32,987 - INFO - \u2705 Found 3 jobs on page 3 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:22:32,988 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 4
+2025-06-05 17:22:37,252 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Software Development Engineer II, location=Remote
+2025-06-05 17:22:44,834 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - WFH - Page 1
+2025-06-05 17:22:53,004 - INFO - \u2705 Found 7 jobs on page 3 for MERN - Pune
+2025-06-05 17:22:53,005 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 4
+2025-06-05 17:22:53,324 - INFO - \u2705 Found 3 jobs on page 4 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:22:53,327 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 5
+2025-06-05 17:22:53,809 - INFO - \u2705 Found 7 jobs on page 2 for MERN - Hyderabad
+2025-06-05 17:22:53,811 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 3
+2025-06-05 17:23:16,343 - INFO - \u2705 Found 3 jobs on page 5 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:23:16,344 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 6
+2025-06-05 17:23:25,781 - INFO - \u2705 Found 7 jobs on page 1 for MERN - Remote
+2025-06-05 17:23:25,781 - INFO - \U0001f504 Scraping LinkedIn: MERN - Remote - Page 2
+2025-06-05 17:23:34,031 - INFO - \u2705 Found 3 jobs on page 6 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:23:34,032 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 7
+2025-06-05 17:23:41,355 - INFO - \u2705 Found 7 jobs on page 3 for MERN - Hyderabad
+2025-06-05 17:23:41,357 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 4
+2025-06-05 17:24:06,396 - INFO - \u2705 Found 7 jobs on page 4 for MERN - Pune
+2025-06-05 17:24:06,397 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 5
+2025-06-05 17:24:15,476 - INFO - \u2705 Found 8 jobs on page 2 for MERN - WFH
+2025-06-05 17:24:15,477 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 3
+2025-06-05 17:24:38,081 - INFO - \u2705 Found 3 jobs on page 7 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:24:38,082 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 8
+2025-06-05 17:24:38,857 - INFO - \u2705 Found 7 jobs on page 2 for MERN - Remote
+2025-06-05 17:24:38,859 - INFO - \U0001f504 Scraping LinkedIn: MERN - Remote - Page 3
+2025-06-05 17:24:38,924 - INFO - \u2705 Found 8 jobs on page 3 for MERN - WFH
+2025-06-05 17:24:38,924 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 4
+2025-06-05 17:24:46,066 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Full Stack Developer – SDE2, location=Pune
+2025-06-05 17:24:47,399 - INFO - \u2705 Found 7 jobs on page 5 for MERN - Pune
+2025-06-05 17:24:47,399 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 6
+2025-06-05 17:24:54,118 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 1
+2025-06-05 17:24:55,821 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Full Stack Developer – SDE2, location=Hyderabad
+2025-06-05 17:24:58,544 - INFO - \u2705 Found 7 jobs on page 1 for Software Development Engineer II - WFH
+2025-06-05 17:24:58,545 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - WFH - Page 2
+2025-06-05 17:25:03,440 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Pune - Page 1
+2025-06-05 17:25:04,018 - INFO - \u2705 Found 7 jobs on page 4 for MERN - Hyderabad
+2025-06-05 17:25:04,018 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 5
+2025-06-05 17:25:04,062 - INFO - \u2705 Found 8 jobs on page 4 for MERN - WFH
+2025-06-05 17:25:04,062 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 5
+2025-06-05 17:25:23,730 - INFO - \u2705 Found 7 jobs on page 2 for Software Development Engineer II - WFH
+2025-06-05 17:25:23,730 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - WFH - Page 3
+2025-06-05 17:25:25,211 - INFO - \u2705 Found 7 jobs on page 6 for MERN - Pune
+2025-06-05 17:25:25,211 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 7
+2025-06-05 17:25:26,654 - INFO - \u2705 Found 7 jobs on page 3 for MERN - Remote
+2025-06-05 17:25:26,654 - INFO - \U0001f504 Scraping LinkedIn: MERN - Remote - Page 4
+2025-06-05 17:25:33,286 - INFO - \u2705 Found 7 jobs on page 1 for Software Development Engineer II - Hyderabad
+2025-06-05 17:25:33,287 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 2
+2025-06-05 17:25:42,364 - INFO - \u2705 Found 3 jobs on page 8 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:25:42,364 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 9
+2025-06-05 17:25:45,965 - INFO - \u2705 Found 7 jobs on page 3 for Software Development Engineer II - WFH
+2025-06-05 17:25:45,966 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - WFH - Page 4
+2025-06-05 17:25:47,974 - INFO - \u2705 Found 7 jobs on page 1 for Software Development Engineer II - Pune
+2025-06-05 17:25:47,974 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Pune - Page 2
+2025-06-05 17:25:48,849 - INFO - \u2705 Found 7 jobs on page 4 for MERN - Remote
+2025-06-05 17:25:48,849 - INFO - \U0001f504 Scraping LinkedIn: MERN - Remote - Page 5
+2025-06-05 17:25:55,581 - INFO - \u2705 Found 7 jobs on page 7 for MERN - Pune
+2025-06-05 17:25:55,581 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 8
+2025-06-05 17:26:08,060 - INFO - \u2705 Found 8 jobs on page 5 for MERN - WFH
+2025-06-05 17:26:08,061 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 6
+2025-06-05 17:26:12,402 - INFO - \u2705 Found 7 jobs on page 2 for Software Development Engineer II - Pune
+2025-06-05 17:26:12,403 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Pune - Page 3
+2025-06-05 17:26:13,346 - INFO - \u2705 Found 7 jobs on page 8 for MERN - Pune
+2025-06-05 17:26:13,347 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 9
+2025-06-05 17:26:15,054 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Software Development Engineer II, location=WFH
+2025-06-05 17:26:17,344 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=MERN, location=Remote
+2025-06-05 17:26:20,830 - INFO - \u2705 Found 7 jobs on page 5 for MERN - Hyderabad
+2025-06-05 17:26:20,835 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 6
+2025-06-05 17:26:21,544 - INFO - \u2705 Found 3 jobs on page 9 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:26:21,545 - INFO - \U0001f504 Scraping LinkedIn: Full Stack Developer – SDE2 - Remote - Page 10
+2025-06-05 17:26:23,607 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 1
+2025-06-05 17:26:25,038 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - WFH - Page 1
+2025-06-05 17:26:27,589 - INFO - \u2705 Found 8 jobs on page 6 for MERN - WFH
+2025-06-05 17:26:27,590 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 7
+2025-06-05 17:26:44,739 - INFO - \u2705 Found 7 jobs on page 3 for Software Development Engineer II - Pune
+2025-06-05 17:26:44,739 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Pune - Page 4
+2025-06-05 17:26:55,888 - INFO - \u2705 Found 7 jobs on page 6 for MERN - Hyderabad
+2025-06-05 17:26:55,889 - INFO - \U0001f504 Scraping LinkedIn: MERN - Hyderabad - Page 7
+2025-06-05 17:26:58,959 - INFO - \u2705 Found 7 jobs on page 2 for Software Development Engineer II - Hyderabad
+2025-06-05 17:26:58,960 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 3
+2025-06-05 17:27:05,676 - INFO - \u2705 Found 3 jobs on page 10 for Full Stack Developer – SDE2 - Remote
+2025-06-05 17:27:06,708 - INFO - \u2705 Found 8 jobs on page 7 for MERN - WFH
+2025-06-05 17:27:06,708 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 8
+2025-06-05 17:27:08,775 - INFO - \u2705 Found 7 jobs on page 9 for MERN - Pune
+2025-06-05 17:27:08,775 - INFO - \U0001f504 Scraping LinkedIn: MERN - Pune - Page 10
+2025-06-05 17:27:12,736 - INFO - \u2705 Found 7 jobs on page 1 for Software Engineer II - WFH
+2025-06-05 17:27:12,737 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - WFH - Page 2
+2025-06-05 17:27:13,504 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 1
+2025-06-05 17:27:40,147 - INFO - \u2705 Found 7 jobs on page 1 for Software Engineer II - Remote
+2025-06-05 17:27:40,148 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 2
+2025-06-05 17:27:47,918 - INFO - \u2705 Found 7 jobs on page 3 for Software Development Engineer II - Hyderabad
+2025-06-05 17:27:47,918 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 4
+2025-06-05 17:28:27,066 - WARNING - LinkedIn card extraction failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"h3"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712c10586]
+	(No symbol) [0x0x7ff712c1083c]
+	(No symbol) [0x0x7ff712c02e4c]
+	(No symbol) [0x0x7ff712c389af]
+	(No symbol) [0x0x7ff712c02d16]
+	(No symbol) [0x0x7ff712c38b80]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 17:28:27,066 - INFO - \u2705 Found 2 jobs on page 2 for Software Engineer II - WFH
+2025-06-05 17:28:27,067 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - WFH - Page 3
+2025-06-05 17:28:27,864 - INFO - \u2705 Found 8 jobs on page 8 for MERN - WFH
+2025-06-05 17:28:27,865 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 9
+2025-06-05 17:28:55,671 - INFO - \u2705 Found 7 jobs on page 10 for MERN - Pune
+2025-06-05 17:29:03,311 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 1
+2025-06-05 17:29:23,616 - INFO - \u2705 Found 7 jobs on page 3 for Software Engineer II - WFH
+2025-06-05 17:29:23,616 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - WFH - Page 4
+2025-06-05 17:29:25,203 - INFO - \u2705 Found 7 jobs on page 2 for Software Engineer II - Remote
+2025-06-05 17:29:25,204 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 3
+2025-06-05 17:29:25,418 - INFO - \u2705 Found 7 jobs on page 1 for Software Engineer II - Hyderabad
+2025-06-05 17:29:25,419 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 2
+2025-06-05 17:29:32,070 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Software Development Engineer II, location=Pune
+2025-06-05 17:29:39,715 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 1
+2025-06-05 17:29:46,852 - INFO - \u2705 Found 8 jobs on page 9 for MERN - WFH
+2025-06-05 17:29:46,853 - INFO - \U0001f504 Scraping LinkedIn: MERN - WFH - Page 10
+2025-06-05 17:29:47,796 - INFO - \u2705 Found 7 jobs on page 3 for Software Engineer II - Remote
+2025-06-05 17:29:47,796 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 4
+2025-06-05 17:30:12,314 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Software Engineer II, location=WFH
+2025-06-05 17:30:19,919 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - WFH - Page 1
+2025-06-05 17:30:21,688 - INFO - \u2705 Found 7 jobs on page 2 for Software Engineer II - Hyderabad
+2025-06-05 17:30:21,689 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 3
+2025-06-05 17:30:31,611 - INFO - \u2705 Found 8 jobs on page 10 for MERN - WFH
+2025-06-05 17:30:40,263 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Hyderabad - Page 1
+2025-06-05 17:31:05,456 - INFO - \u2705 Found 1 jobs on page 1 for SDE2 – MERN Stack - Remote
+2025-06-05 17:31:05,456 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 2
+2025-06-05 17:31:19,003 - INFO - \u2705 Found 1 jobs on page 2 for SDE2 – MERN Stack - Remote
+2025-06-05 17:31:19,003 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 3
+2025-06-05 17:31:23,560 - INFO - \u2705 Found 7 jobs on page 4 for Software Development Engineer II - Hyderabad
+2025-06-05 17:31:23,560 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 5
+2025-06-05 17:31:26,365 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=SDE2 – MERN Stack, location=Hyderabad
+2025-06-05 17:31:28,548 - INFO - \u2705 Found 1 jobs on page 3 for SDE2 – MERN Stack - Remote
+2025-06-05 17:31:28,548 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 4
+2025-06-05 17:31:32,615 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=MERN, location=Hyderabad
+2025-06-05 17:31:33,918 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Pune - Page 1
+2025-06-05 17:31:36,946 - INFO - \u2705 Found 7 jobs on page 5 for Software Development Engineer II - Hyderabad
+2025-06-05 17:31:36,947 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 6
+2025-06-05 17:31:38,711 - INFO - \u2705 Found 7 jobs on page 3 for Software Engineer II - Hyderabad
+2025-06-05 17:31:38,711 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 4
+2025-06-05 17:31:42,275 - INFO - \u2705 Found 7 jobs on page 4 for Software Engineer II - Remote
+2025-06-05 17:31:42,275 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 5
+2025-06-05 17:31:45,146 - INFO - \u2705 Found 1 jobs on page 4 for SDE2 – MERN Stack - Remote
+2025-06-05 17:31:45,146 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 5
+2025-06-05 17:31:54,349 - INFO - \u2705 Found 7 jobs on page 6 for Software Development Engineer II - Hyderabad
+2025-06-05 17:31:54,349 - INFO - \U0001f504 Scraping LinkedIn: Software Development Engineer II - Hyderabad - Page 7
+2025-06-05 17:31:58,567 - INFO - \u2705 Found 7 jobs on page 4 for Software Engineer II - Hyderabad
+2025-06-05 17:31:58,567 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 5
+2025-06-05 17:32:01,724 - INFO - \u2705 Found 1 jobs on page 5 for SDE2 – MERN Stack - Remote
+2025-06-05 17:32:01,725 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 6
+2025-06-05 17:32:03,718 - INFO - \u2705 Found 7 jobs on page 5 for Software Engineer II - Remote
+2025-06-05 17:32:03,719 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 6
+2025-06-05 17:32:12,726 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=SDE2 – MERN Stack, location=Pune
+2025-06-05 17:32:24,554 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=Software Development Engineer II, location=Hyderabad
+2025-06-05 17:32:26,972 - INFO - \u2705 Found 1 jobs on page 6 for SDE2 – MERN Stack - Remote
+2025-06-05 17:32:26,973 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 7
+2025-06-05 17:32:28,859 - INFO - \u2705 Found 7 jobs on page 6 for Software Engineer II - Remote
+2025-06-05 17:32:28,861 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 7
+2025-06-05 17:32:29,284 - INFO - \u2705 Found 7 jobs on page 5 for Software Engineer II - Hyderabad
+2025-06-05 17:32:29,287 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 6
+2025-06-05 17:32:42,774 - INFO - \u2705 Found 60 jobs on page 1 for Software Engineer II - Pune
+2025-06-05 17:32:42,774 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 2
+2025-06-05 17:32:44,530 - WARNING - \u26a0\ufe0f Timeout on LinkedIn page for title=SDE2 – MERN Stack, location=WFH
+2025-06-05 17:32:45,392 - INFO - \u2705 Found 1 jobs on page 7 for SDE2 – MERN Stack - Remote
+2025-06-05 17:32:45,393 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 8
+2025-06-05 17:32:53,308 - INFO - \u2705 Found 7 jobs on page 6 for Software Engineer II - Hyderabad
+2025-06-05 17:32:53,309 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 7
+2025-06-05 17:32:56,216 - INFO - \u2705 Found 7 jobs on page 7 for Software Engineer II - Remote
+2025-06-05 17:32:56,217 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 8
+2025-06-05 17:32:57,924 - INFO - \u2705 Found 1 jobs on page 8 for SDE2 – MERN Stack - Remote
+2025-06-05 17:32:57,925 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 9
+2025-06-05 17:33:02,383 - INFO - \u2705 Found 1 jobs on page 9 for SDE2 – MERN Stack - Remote
+2025-06-05 17:33:02,385 - INFO - \U0001f504 Scraping LinkedIn: SDE2 – MERN Stack - Remote - Page 10
+2025-06-05 17:33:12,575 - INFO - \u2705 Found 7 jobs on page 7 for Software Engineer II - Hyderabad
+2025-06-05 17:33:12,576 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 8
+2025-06-05 17:33:16,721 - INFO - \u2705 Found 7 jobs on page 8 for Software Engineer II - Remote
+2025-06-05 17:33:16,722 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 9
+2025-06-05 17:33:18,561 - INFO - \u2705 Found 60 jobs on page 2 for Software Engineer II - Pune
+2025-06-05 17:33:18,562 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 3
+2025-06-05 17:33:27,537 - INFO - \u2705 Found 7 jobs on page 8 for Software Engineer II - Hyderabad
+2025-06-05 17:33:27,539 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 9
+2025-06-05 17:33:31,902 - INFO - \u2705 Found 7 jobs on page 9 for Software Engineer II - Hyderabad
+2025-06-05 17:33:31,902 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Hyderabad - Page 10
+2025-06-05 17:33:34,561 - INFO - \u2705 Found 1 jobs on page 10 for SDE2 – MERN Stack - Remote
+2025-06-05 17:33:41,830 - INFO - \u2705 Found 7 jobs on page 10 for Software Engineer II - Hyderabad
+2025-06-05 17:33:42,424 - INFO - \u2705 Found 60 jobs on page 3 for Software Engineer II - Pune
+2025-06-05 17:33:42,425 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 4
+2025-06-05 17:33:56,636 - INFO - \u2705 Found 60 jobs on page 4 for Software Engineer II - Pune
+2025-06-05 17:33:56,637 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 5
+2025-06-05 17:34:14,130 - INFO - \u2705 Found 60 jobs on page 5 for Software Engineer II - Pune
+2025-06-05 17:34:14,130 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 6
+2025-06-05 17:34:18,237 - INFO - \u2705 Found 7 jobs on page 9 for Software Engineer II - Remote
+2025-06-05 17:34:18,237 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Remote - Page 10
+2025-06-05 17:34:21,957 - INFO - \u2705 Found 60 jobs on page 6 for Software Engineer II - Pune
+2025-06-05 17:34:21,957 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 7
+2025-06-05 17:34:27,676 - INFO - \u2705 Found 7 jobs on page 10 for Software Engineer II - Remote
+2025-06-05 17:34:36,240 - INFO - \u2705 Found 60 jobs on page 7 for Software Engineer II - Pune
+2025-06-05 17:34:36,240 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 8
+2025-06-05 17:34:55,097 - INFO - \u2705 Found 60 jobs on page 8 for Software Engineer II - Pune
+2025-06-05 17:34:55,097 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 9
+2025-06-05 17:35:05,747 - INFO - \u2705 Found 60 jobs on page 9 for Software Engineer II - Pune
+2025-06-05 17:35:05,749 - INFO - \U0001f504 Scraping LinkedIn: Software Engineer II - Pune - Page 10
+2025-06-05 17:35:13,958 - INFO - \u2705 Found 60 jobs on page 10 for Software Engineer II - Pune
+2025-06-05 17:35:20,407 - INFO - \U0001f3e2 Starting Company scraping...
+2025-06-05 17:35:21,570 - INFO - \U0001f504 Scraping company: PhonePe
+2025-06-05 17:35:47,505 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2CAC0CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3714f8f1c6cce5f9bfcb5433374d4e28
+2025-06-05 17:35:51,606 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2C63FE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3714f8f1c6cce5f9bfcb5433374d4e28
+2025-06-05 17:35:55,676 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2CF883D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3714f8f1c6cce5f9bfcb5433374d4e28

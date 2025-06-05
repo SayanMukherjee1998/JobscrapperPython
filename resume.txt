@@ -1,0 +1,47 @@
+Sayan Mukherjee
+
++91 9433101663 | s.mukherjee.1998@outlook.com | LinkedIn
+
+Professional Summary
+Full-Stack Software Engineer with 3+ years’ experience building and scaling high-traffic web platforms. Expert in system design, AWS cloud, and MERN/MEAN
+stack, delivering secure and high-performance solutions. Strong in team leadership, cross-functional collaboration, and problem-solving.
+Professional Experience
+Languages: JavaScript, TypeScript, JAVA, C, SQL
+Frameworks: React.js, Angular, Node.js, Express.js, Redux, Bootstrap, MUI
+Tools: Docker, Git, Jenkins, SonarQube, Postman, Jira, MongoDB, MySQL, GraphQL, AWS (EC2, S3, Lambda, API Gateway, WAF, CloudFront, Cognito, DynamoDB),
+Linux
+Concepts: Microservices, REST/GraphQL APIs, System Design, TDD, CI/CD, DevOps, Agile
+Soft Skills: Team Leadership, Cross-functional Collaboration, Problem-Solving, Communication, Adaptability
+Professional Experience
+BluCursor Infotech Pvt. Ltd. – Software Engineer Sep 2023 – Present
+ Led backend and infrastructure for multi-tenant platforms ensuring scalability and security.
+ Implemented CI/CD pipelines, enforced security standards, mentored junior devs.
+Katsam Group Pvt. Ltd. – Full Stack Engineer (MERN) Dec 2022 – Sep 2023
+ Built full-stack applications with real-time data processing and concurrency handling.
+ Collaborated with teams to deliver features early, automate monitoring, and enhance system performance.
+Intelligent Risk Management Pvt. Ltd. – Full Stack Engineer (MEAN) Jan 2022 – Jul 2022
+ Developed REST APIs and Angular components, ensuring modularity and maintainability.
+ Delivered high-quality releases in collaboration with QA and product teams.
+Projects
+Cloud-Native Real Estate Platform – BluCursor
+ Built a multi-tenant real estate platform with 160+ portals and 2,000+ active users.
+ Used AWS (EC2, S3, Lambda), Node.js, React.js, MongoDB, Jenkins.
+ Achieved 99.5% uptime, zero incidents, and bi-weekly zero-downtime releases.
+Carbon Neutralization Platform
+ Led backend/cloud architecture calculating CO2-to-O2 conversion via tree metrics.
+ Built hybrid AWS (ECS + Lambda) infra with Node.js, automated deployments, managed cloud workflows.
+ Enabled scalable real-time processing; improved update frequency by 40%.
+Real-Time Betting Platform
+ Handled 1000+ concurrent users during live events with real-time WebSocket updates.
+ Stack: Node.js, React.js, Express.js, caching; improved latency by 25%.
+ Achieved 99.9% uptime, boosted retention by 20%.
+Enterprise Search Engine
+ Indexed 1M+ records with Apache, Angular, and optimized REST APIs.
+ Cut average query time by 40%, enabled advanced filtering for enterprise users.
+Education
+Bachelor of Science in Computer Science Mar 2016 – Oct 2020
+ Focused on Data Structures, Algorithms, System Design, Distributed Computing.
+ Simulated distributed systems using C++ and JavaScript.
+Certifications
+ Algorithms and Data Structures – HeyCoach
+ System Design Primer – HeyCoach

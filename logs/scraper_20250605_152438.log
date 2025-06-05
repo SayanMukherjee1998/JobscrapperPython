@@ -1,0 +1,131 @@
+2025-06-05 15:24:38,948 - INFO - \U0001f4c4 Extracting skills from resume
+2025-06-05 15:24:38,952 - INFO - \u2705 Skills extracted: {'Aws': 3, 'Docker': 1, 'React': 2, 'Angular': 2, 'Node.js': 3, 'Mysql': 1, 'Mongodb': 2, 'Git': 1, 'Jenkins': 2, 'Linux': 1, 'Graphql': 2, 'Typescript': 1, 'Sql': 1, 'Ci/cd': 2, 'Javascript': 2}
+2025-06-05 15:24:38,952 - INFO - \U0001f50d Scraping jobs from LinkedIn and Companies
+2025-06-05 15:29:14,323 - ERROR - Company scrape failed for Paytm: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bb6874]
+	(No symbol) [0x0x7ff712ba7589]
+	(No symbol) [0x0x7ff712ba9331]
+	(No symbol) [0x0x7ff712ba78a6]
+	(No symbol) [0x0x7ff712ba7306]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba4b9f]
+	(No symbol) [0x0x7ff712ba541c]
+	(No symbol) [0x0x7ff712bbde0a]
+	(No symbol) [0x0x7ff712c61dfe]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 15:58:34,915 - ERROR - Company scrape failed for Walmart: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712ba72dc]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba5e2e]
+	(No symbol) [0x0x7ff712bc9e61]
+	(No symbol) [0x0x7ff712c61384]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 16:00:56,052 - ERROR - Company scrape failed for Nykaa: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bb6874]
+	(No symbol) [0x0x7ff712ba7589]
+	(No symbol) [0x0x7ff712ba9331]
+	(No symbol) [0x0x7ff712ba78a6]
+	(No symbol) [0x0x7ff712ba7306]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba4b9f]
+	(No symbol) [0x0x7ff712ba541c]
+	(No symbol) [0x0x7ff712bbde0a]
+	(No symbol) [0x0x7ff712c61dfe]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 16:01:41,679 - ERROR - Company scrape failed for Dream11: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff712dffea5+79173]
+	GetHandleVerifier [0x0x7ff712dfff00+79264]
+	(No symbol) [0x0x7ff712bb9e5a]
+	(No symbol) [0x0x7ff712bb6874]
+	(No symbol) [0x0x7ff712ba7589]
+	(No symbol) [0x0x7ff712ba9331]
+	(No symbol) [0x0x7ff712ba78a6]
+	(No symbol) [0x0x7ff712ba7306]
+	(No symbol) [0x0x7ff712ba6fca]
+	(No symbol) [0x0x7ff712ba4b9f]
+	(No symbol) [0x0x7ff712ba541c]
+	(No symbol) [0x0x7ff712bbde0a]
+	(No symbol) [0x0x7ff712c61dfe]
+	(No symbol) [0x0x7ff712c3896a]
+	(No symbol) [0x0x7ff712c6100d]
+	(No symbol) [0x0x7ff712c38743]
+	(No symbol) [0x0x7ff712c014c1]
+	(No symbol) [0x0x7ff712c02253]
+	GetHandleVerifier [0x0x7ff7130ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7130c472d+2981325]
+	GetHandleVerifier [0x0x7ff7130e3380+3107360]
+	GetHandleVerifier [0x0x7ff712e1aa2e+188622]
+	GetHandleVerifier [0x0x7ff712e222bf+219487]
+	GetHandleVerifier [0x0x7ff712e08df4+115860]
+	GetHandleVerifier [0x0x7ff712e08fa9+116297]
+	GetHandleVerifier [0x0x7ff712def558+11256]
+	BaseThreadInitThunk [0x0x7ffe1c007374+20]
+	RtlUserThreadStart [0x0x7ffe1d0fcc91+33]
+
+2025-06-05 16:02:33,672 - INFO - \U0001f50e Total jobs scraped: 175
+2025-06-05 16:02:33,672 - INFO - \U0001f9e0 Filtering and scoring jobs
+2025-06-05 16:02:33,683 - INFO - \u2705 Filtered jobs after score/salary: 0
+2025-06-05 16:02:33,683 - INFO - \U0001f552 Filtering posted-today jobs
+2025-06-05 16:02:33,692 - INFO - \u2705 PostedToday count: 0
+2025-06-05 16:02:33,692 - INFO - \U0001f3c1 Finished in 2274.74s
