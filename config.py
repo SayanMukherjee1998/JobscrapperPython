@@ -18,3 +18,5 @@ CHROME_DRIVER_PATH = "chromedriver"
 
 POSTED_TODAY_COLLECTION = "PostedToday"
 FILTERED_JOBS_COLLECTION = "FilteredJobs"
+
+LOG_LEVEL = "DEBUG"  # Set to "INFO" for production

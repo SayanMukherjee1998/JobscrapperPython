@@ -1,9 +1,13 @@
-# Path: scraper/company_scraper.py
+# scraper/company_scraper.py
 
 import pandas as pd
+import time
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, WebDriverException
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from config import COMPANY_LIST_PATH, MAX_COMPANY_JOBS
@@ -13,13 +17,13 @@ import os
 import zipfile
 import shutil
 
+# Configure Chrome Options
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless=new")
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
-
 
 def get_chrome_driver():
     try:
@@ -29,58 +33,122 @@ def get_chrome_driver():
         shutil.rmtree(os.path.expanduser("~/.wdm"), ignore_errors=True)
         return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
-
 def scrape_company_page_dynamic(company, resume_keywords):
     jobs = []
     driver = get_chrome_driver()
     MAX_RETRIES = 3
+    
     try:
         logger.info(f"🔄 Scraping company: {company['name']}")
-        # Retry logic for loading the company career page
+        
+        # Retry logic for page loading
         for attempt in range(MAX_RETRIES):
             try:
                 driver.get(company["career_url"])
-                break  # Success!
-            except WebDriverException as e:
-                logger.warning(f"Selenium get failed: {e}, attempt {attempt + 1} of {MAX_RETRIES}")
+                WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located((By.XPATH, '//*[contains(text(), "job") or contains(text(), "career")]'))
+                )
+                break
+            except (WebDriverException, TimeoutException) as e:
                 if attempt == MAX_RETRIES - 1:
-                    raise  # Final failure after all retries
-                time.sleep(2 ** attempt)  # Exponential backoff: 1s, 2s, 4s
+                    raise
+                time.sleep(2 ** attempt)
+                logger.warning(f"🔄 Retry {attempt+1} for {company['name']}")
 
-        cards = driver.find_elements(By.XPATH, '//a[contains(@href,"job") or contains(@href,"careers")]')
-        print(f"Found {len(cards)} company job cards for {company['name']}")
+        # Smart job card detection
+        job_cards = WebDriverWait(driver, 15).until(
+            EC.presence_of_all_elements_located((By.XPATH, 
+                '//div[contains(@class,"job")] | '
+                '//li[contains(@class,"position")] | '
+                '//a[contains(@href,"job")][not(contains(translate(text(), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), "career"))]'
+            ))
+        )
+        logger.info(f"🔍 Found {len(job_cards)} potential job elements for {company['name']}")
 
-        for card in cards[:MAX_COMPANY_JOBS]:
+        for idx, card in enumerate(job_cards[:MAX_COMPANY_JOBS], 1):
             try:
-                title = card.text.strip() or "Unknown Title"
+                # Extract job details with multiple fallbacks
+                title = card.find_element(By.XPATH,
+                    './/h2[contains(@class,"title")] | '
+                    './/h3 | '
+                    './/div[contains(@class,"position-title")] | '
+                    './/*[contains(@class,"job-title")]'
+                ).text.strip()
+                
+                url = card.find_element(By.XPATH,
+                    './/a[contains(@href,"job")]/@href | '
+                    './/a[contains(@class,"apply")]/@href | '
+                    './/a[contains(@href,"careers")]/@href'
+                ).get_attribute("href")
+                
+                # Description extraction with smart truncation
+                try:
+                    description = card.find_element(By.XPATH,
+                        './/div[contains(@class,"description")] | '
+                        './/div[contains(@class,"summary")] | '
+                        './/p[contains(@class,"brief")]'
+                    ).text.strip()[:300] + "..."  # Limit to 300 chars for efficiency
+                except:
+                    description = title  # Fallback to title if no description
+
                 job = {
                     "source": "company",
                     "title": title,
                     "company": company["name"],
                     "location": "Unknown",
-                    "url": card.get_attribute("href"),
+                    "url": url,
                     "posted_date": datetime.now(),
-                    "description": title
+                    "description": description
                 }
-                # if is_relevant_job(job, resume_keywords):
-                jobs.append(job)
+
+                # Relevance check with detailed logging
+                is_relevant = is_relevant_job(job, resume_keywords)
+                logger.debug(f"""
+                📝 Job {idx} Check:
+                Title: {title}
+                Description: {description[:50]}...
+                Relevant: {is_relevant}
+                """)
+
+                if is_relevant:
+                    jobs.append(job)
+                    logger.info(f"✅ Added relevant job: {title}")
+                else:
+                    logger.info(f"⏭️  Skipped non-relevant job: {title}")
+
             except Exception as e:
-                logger.warning(f"⚠️ Parse failed on {company['name']}: {e}")
-        logger.info(f"✅ {company['name']}: {len(jobs)} relevant out of {len(cards)} total")
+                logger.warning(f"⚠️ Partial failure processing job {idx}: {str(e)}")
+                continue
+
+        logger.info(f"📊 {company['name']} Results: {len(jobs)} relevant jobs found")
+
     except Exception as e:
-        logger.error(f"❌ Failed {company.get('name', 'unknown')}: {e}")
+        logger.error(f"❌ Critical error processing {company['name']}: {str(e)}")
+    
     finally:
         driver.quit()
+    
     return jobs
 
 def scrape_all_companies(resume_keywords):
+    """Main company scraping entry point with progress tracking"""
     companies = pd.read_csv(COMPANY_LIST_PATH)
     if not {'name', 'career_url'}.issubset(companies.columns):
-        raise ValueError("CSV must contain 'name' and 'career_url' headers.")
+        raise ValueError("CSV must contain 'name' and 'career_url' headers")
 
-    companies = companies.to_dict("records")
-    results = []
-    for comp in companies:
-        results.extend(scrape_company_page_dynamic(comp, resume_keywords))
-    print(f"🔍 Printing jobs nside company scrapper: {results}")
-    return results
+    all_jobs = []
+    total_companies = len(companies)
+    
+    for idx, company in enumerate(companies.to_dict("records"), 1):
+        try:
+            logger.info(f"🏢 Processing company {idx}/{total_companies}: {company['name']}")
+            jobs = scrape_company_page_dynamic(company, resume_keywords)
+            all_jobs.extend(jobs)
+            logger.info(f"📦 Current total: {len(all_jobs)} jobs")
+        except Exception as e:
+            logger.error(f"🚨 Failed processing {company['name']}: {str(e)}")
+            continue
+    
+    logger.info(f"🏁 Completed company scraping. Total jobs: {len(all_jobs)}")
+    print(f"🏢 Printing all jobs in scrape_all_companies: {all_jobs}")
+    return all_jobs
